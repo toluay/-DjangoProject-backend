@@ -7,6 +7,9 @@ name = "pypi"
 djangorestframework = "*"
 django = "*"
 django-rest-knox = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
