@@ -8,7 +8,8 @@ from .serializers import CustomerSerializer
 class CustomerViewSet(viewsets.ModelViewSet):
 
     permission_classes = [
-        permissions.AllowAny,
+        # permissions.AllowAny,
+        permissions.IsAuthenticated,
     ]
     serializer_class = CustomerSerializer
 
